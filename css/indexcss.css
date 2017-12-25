@@ -1,0 +1,259 @@
+/*------------- OPSTE --------------*/
+
+body {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+nav {
+background: linear-gradient(#004aff,#00aced);
+}
+
+
+/*------- POCETAK PRVE SEKCIJE--------*/
+.headerClass{
+    background: linear-gradient(#004aff,#00aced);
+    height: 180px;
+    margin:0;
+}
+.nav-bar {
+    width: 100%;
+    margin:auto;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+    background: linear-gradient(#0039c5, #00b9ff);
+    display: flex;
+}
+
+a:link,
+a:visited {
+    color: #ffffff;
+    text-decoration: none;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+}
+/*------------- HEADER DEO -------------*/
+
+.main-nav ul {
+    display: flex;
+    float:left;
+}
+
+.main-nav li {
+    float:left;
+    display: flex;
+    margin: -5px 120px;
+}
+
+.headerClass h1 {
+    color: white;
+    margin: auto ;
+    text-align: center;
+    font-size: 90px;
+    padding: 25px;
+}
+/*----------- KRAJ HEADER DELA -----------*/
+
+/*---------- POCETAK PRVE SEKCIJE----------*/
+
+.sekcijaPrva {
+    width: 100%;
+    height: 780px;
+    margin: auto;
+    display: grid;
+}
+
+/*------------- SLIKA -----------------*/
+
+
+.divSlika {
+    height: 450px;
+}
+
+.divSlika img {
+    width: 100%;
+    height: 520px;
+    margin: auto;
+}
+
+/*---------POCETAK DIVOVA SA TEKSOM I SLICICOM---------------*/
+.divSaSlicicama {
+    width: 100%;
+    height: 238px;
+    float: left;
+    display: flex;
+    margin: auto;
+}
+
+.cetiriDiva {
+    height: 250px;
+    width: 25%;
+    float: left;
+    display: inline-block;
+    background-color: #ececec;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #cfcfcf;
+
+}
+
+.cetiriDiva img {
+    float: left;
+    width: 120px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 30px 10px;
+    padding: 10px;
+}
+
+.cetiriDiva h3 {
+    font-size: 25px;
+    color: blue;
+    font-family: Lato;
+    letter-spacing: 0.5px;
+}
+
+.cetiriDiva p {
+    font-size: 18px;
+    font-style: italic;
+    display: flex;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+/*---------KRAJ DIVOVA SA TEKSOM I SLICICOM---------------*/
+/*----------- KRAJ PRVE SEKCIJE --------------*/
+
+
+/*---------- POCETAK DRUGE SEKCIJE -------------*/
+
+
+.sekcijaDruga {
+    background-color: #ececec;
+    width: 100%;
+    height: auto;
+    float:left;
+    display: flex;
+    margin: auto;
+}
+.latestNews,
+.welcome,
+.ourCustomers {
+    width: 33%;
+    height:700px;
+    text-align: center;
+    margin: 50px auto;
+    letter-spacing: 1px;
+    position: relative;
+}
+/*---------- POCETAK LAST NEWS DELA   -----------*/
+.datum {
+    color: blue;
+    float:left;
+}
+
+.manjiDiv {
+    text-align: left;
+    height: 250px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.manjiDiv p {
+    float: left;
+    font-size: 90%;
+    text-align: left;
+    margin: 10px;
+    word-spacing: 1px;
+}
+
+.manjiDiv h4 {
+    float:left;
+    margin: 10px;
+    text-transform: uppercase;
+}
+.prvi{
+    border-bottom: white dotted 2px;
+    padding: 10px;
+    }
+
+/*------POCETAK WELCOME DELA----------*/
+.welcome01 p {
+    font-size: 30px;
+    float: left;
+    color: #606060;
+    text-align: left;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.welcome02 p {
+    font-size: 20px;
+    float: left;
+    color: black;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.welcome03 p {
+    float: left;
+    font-size: 90%;
+    text-align: left;
+    word-spacing: 1px;
+}
+
+/*------------- POCETAK OUR CUSTOMERS DELA ------------*/
+
+.ourCustomers h4 {
+    float:left;
+    text-align: left;
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.customers {
+    float: left;
+    display: flex;
+    padding: 10px;
+    width: 50%;
+}
+.customers img{
+    float: left;
+    display: flex;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+/*------------ DUGME -----------*/
+
+.read-more {
+    width: 150px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border: none;
+    float: left;
+    left:0;
+    position: absolute;
+    bottom: 30px;
+}
+/*---JOS PO NESTO--*/
+h1{
+    font-size: 33px;
+
+}
+/*--------- KRAJ DRUGE SEKCIJE ------------*/
